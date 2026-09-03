@@ -43,6 +43,11 @@ The application provides a banking dashboard where users can:
 5. Submit the transaction
 6. View the updated balance
 7. Check transaction history
+8. ## 📸 Dashboard
+
+Here is a preview of the Bank Transaction System:
+
+![Bank Transaction System Dashboard](dashboard.png)
 
 ## 💰 Transaction Example
 

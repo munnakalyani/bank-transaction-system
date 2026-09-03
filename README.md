@@ -86,3 +86,17 @@ bank-transaction-system/
 ├── style.css
 ├── script.js
 └── README.md
+Author
+
+Munnakalyani
+
+📄 License
+
+This project is created for educational and portfolio purposes.
+
+
+6. At the bottom, click **Commit changes**.
+
+After a few seconds, your repository page will show a much more professional README instead of only the two lines.
+
+**One important point:** don't put a real bank account number, password, API key, or other private information in the README.

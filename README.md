@@ -1,87 +1,97 @@
 # 🏦 Bank Transaction System
 
 A web-based bank transaction management system built using HTML, CSS, and JavaScript.
-
 ## 🌐 Live Demo
 
-👉 [Open Bank Transaction System](https://munnakalyani.github.io/bank-transaction-system/)
-
+👉 [Open Bank Transaction System](https://munnakalyali.github.io/bank-transaction-system/)
+dashboard.png
+<img width="833" height="499" alt="image" src="https://github.com/user-attachments/assets/2ef95836-36cd-4978-a189-d31cd2f3b3f9" />
 ## 📌 Project Overview
 
-The Bank Transaction System is a simple interactive banking application that allows users to manage basic account transactions through a user-friendly web interface.
+The Bank Transaction System is a simple interactive banking application
+created using HTML, CSS, and JavaScript.
 
-Users can deposit money, withdraw money, view their current balance, and track their transaction history.
+The application allows users to perform basic banking operations
+through an easy-to-use dashboard.
 
+Users can:
+
+- View account information
+- Check current balance
+- Deposit money
+- Withdraw money
+- View transaction history
+- Track transaction date and time
+- View updated balance after each transaction
+
+⚠️ **This is a demo banking application created for educational purposes.
+It does not process real money or connect to real bank accounts.**
 ## ✨ Features
 
-- 🏦 Bank account dashboard
-- 💰 Deposit money
-- 💸 Withdraw money
-- 📊 Real-time balance updates
-- 📋 Transaction history
-- 📅 Transaction date and time
-- 💵 Transaction amount tracking
-- 🔢 Account number display
-- 📱 Simple and responsive interface
+### 🏦 Account Dashboard
 
+Displays account information and current balance.
+
+### 💰 Deposit
+
+Users can enter an amount and deposit money into the demo account.
+
+### 💸 Withdraw
+
+Users can withdraw money from their available balance.
+
+### 📊 Balance Update
+
+The account balance updates automatically after every transaction.
+
+### 📋 Transaction History
+
+Displays previous transactions including:
+
+- Date
+- Transaction type
+- Amount
+- Balance
+
+### 📱 Responsive Interface
+
+The application provides a simple interface suitable for different
+screen sizes.
+## ⚙️ How It Works
+
+```text
+Open Application
+       ↓
+View Account Dashboard
+       ↓
+Select Deposit or Withdraw
+       ↓
+Enter Amount
+       ↓
+Submit Transaction
+       ↓
+Validate Transaction
+       ↓
+Update Balance
+       ↓
+Update Transaction History
+
+---
+
+# Step 10 — Add Technologies
+
+Paste:
+
+```markdown
 ## 🛠️ Technologies Used
 
-- HTML5
-- CSS3
-- JavaScript
-- GitHub
-- GitHub Pages
-
-## 🖥️ Application
-
-The application provides a banking dashboard where users can:
-
-1. View account information
-2. Check current balance
-3. Select Deposit or Withdraw
-4. Enter the transaction amount
-5. Submit the transaction
-6. View the updated balance
-7. Check transaction history
-8. ## 📸 Dashboard
-
-Here is a preview of the Bank Transaction System:
-
-![Bank Transaction System Dashboard](dashboard.png)
-
-## 💰 Transaction Example
-
-Starting Balance:
-
-**$5,000.00**
-
-Deposit:
-
-**+$5,000.00**
-
-Updated Balance:
-
-**$10,000.00**
-
-Withdrawal:
-
-**-$6,000.00**
-
-Updated Balance:
-
-**$4,000.00**
-
-All transactions are displayed in the transaction history table.
-
-## 📋 Transaction History
-
-The transaction history displays:
-
-| Date | Type | Amount | Balance |
-|------|------|--------|---------|
-| 9/3/2026 | DEPOSIT | +$5,000.00 | $10,000.00 |
-| 9/3/2026 | WITHDRAW | -$6,000.00 | $4,000.00 |
-
+| Technology | Purpose |
+|------------|---------|
+| HTML5 | Application structure |
+| CSS3 | Styling and responsive design |
+| JavaScript | Transaction functionality |
+| GitHub | Source code management |
+| GitHub Pages | Website deployment |
 ## 📁 Project Structure
 
 ```text
@@ -90,14 +100,94 @@ bank-transaction-system/
 ├── index.html
 ├── style.css
 ├── script.js
+├── dashboard.png
 └── README.md
-Author
 
-Munnakalyani
+---
 
-📄 License
+# Step 12 — Add How to Run
 
-This project is created for educational and portfolio purposes.
+Paste:
 
+```markdown
+## ▶️ How to Run Locally
 
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/munnakalyali/bank-transaction-system.git
+cd bank-transaction-system
+
+---
+
+# Step 13 — Add Testing
+
+Paste:
+
+```markdown
+## 🧪 Testing
+
+### Deposit Test
+
+**Initial Balance:** $5,000
+
+**Deposit:** $1,000
+
+**Expected Balance:** $6,000
+
+### Withdrawal Test
+
+**Initial Balance:** $5,000
+
+**Withdraw:** $1,000
+
+**Expected Balance:** $4,000
+
+### Insufficient Balance Test
+
+**Initial Balance:** $5,000
+
+**Withdraw:** $6,000
+
+**Expected Result:** Transaction should not be completed.
+## 🔐 Security Notice
+
+This is a frontend educational project.
+
+It does not use:
+
+- Real bank accounts
+- Real money
+- Real payment processing
+- Real banking APIs
+- Real customer information
+- Production authentication
+
+⚠️ Do not enter real banking credentials or sensitive financial
+information into this application.
+## 🚀 Future Improvements
+
+Possible future improvements include:
+
+- User login and registration
+- Multiple bank accounts
+- Persistent transaction storage
+- Search transactions
+- Filter transactions
+- Export transaction history
+- Transaction charts
+- Monthly reports
+- Dark mode
+- Backend integration
+- Database integration
+- Secure authentication
+## 👩‍💻 Author
+
+### Munnakalyani
+
+GitHub:  
+https://github.com/munnakalyali
+## 📄 License
+
+This project was created for educational and portfolio purposes.
 

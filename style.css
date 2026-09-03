@@ -1,1 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
 
+body {
+    background: linear-gradient(135deg, #0f172a, #1e3a8a);
+    min-height: 100vh;
+    color: #ffffff;
+    padding: 30px 15px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Main heading */
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+/* Account card */
+
+.account-card {
+    background: linear-gradient(135deg, #2563eb, #1d4ed8);
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.account-card h2 {
+    margin-bottom: 10px;
+}
+
+.account-card p {
+    color: #dbeafe;
+}
+
+.account-card h3 {
+    margin-top: 25px;
+    color: #dbeafe;
+}
+
+.balance {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+/* Transaction form */
+
+.transaction-form {
+    background: #ffffff;
+    color: #0f172a;
+    padding: 25px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.transaction-form h2 {
+    margin-bottom: 20px;
+}
+
+input,
+select {
+    padding: 14px;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    margin: 5px;
+    outline: none;
+}
+
+input {
+    width: 45%;
+}
+
+select {
+    width: 25%;
+}
+
+input:focus,
+select:focus {
+    border-color: #2563eb;
+}
+
+/* Button */
+
+button {
+    padding: 14px 20px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+/* Transaction history */
+
+.history {
+    background: #ffffff;
+    color: #0f172a;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    overflow-x: auto;
+}
+
+.history h2 {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: #eff6ff;
+    color: #1e3a8a;
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.deposit {
+    color: #16a34a;
+    font-weight: bold;
+}
+
+.withdraw {
+    color: #dc2626;
+    font-weight: bold;
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 20px 10px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    input,
+    select,
+    button {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .balance {
+        font-size: 32px;
+    }
+}
